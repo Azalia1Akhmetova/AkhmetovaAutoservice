@@ -19,3 +19,14 @@ E:\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\Akhm
 E:\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.exe
 E:\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.pdb
 E:\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\App.baml
+D:\3 курс\ИСП-3121\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.csproj.AssemblyReference.cache
+D:\3 курс\ИСП-3121\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.csproj.SuggestedBindingRedirects.cache
+D:\3 курс\ИСП-3121\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AddEditPage.g.cs
+D:\3 курс\ИСП-3121\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\MainWindow.g.cs
+D:\3 курс\ИСП-3121\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\ServicePage.g.cs
+D:\3 курс\ИСП-3121\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\App.g.cs
+D:\3 курс\ИСП-3121\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice_Content.g.cs
+D:\3 курс\ИСП-3121\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice_MarkupCompile.cache
+D:\3 курс\ИСП-3121\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice_MarkupCompile.lref
+D:\3 курс\ИСП-3121\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.exe
+D:\3 курс\ИСП-3121\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.pdb

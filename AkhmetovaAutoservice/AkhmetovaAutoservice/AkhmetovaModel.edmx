@@ -599,7 +599,7 @@
           <End Role="Client" Type="Self.Client" Multiplicity="*" />
           <End Role="Tag" Type="Self.Tag" Multiplicity="*" />
         </Association>
-        <EntityContainer Name="Akhmetova_autoserviceEntities" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="Akhmetova_autoserviceEntities1" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Client" EntityType="Self.Client" />
           <EntitySet Name="ClientService" EntityType="Self.ClientService" />
           <EntitySet Name="DocumentByService" EntityType="Self.DocumentByService" />
@@ -661,7 +661,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="Хранилище Akhmetova_autoserviceModelContainer" CdmEntityContainer="Akhmetova_autoserviceEntities">
+        <EntityContainerMapping StorageEntityContainer="Хранилище Akhmetova_autoserviceModelContainer" CdmEntityContainer="Akhmetova_autoserviceEntities1">
           <EntitySetMapping Name="Client">
             <EntityTypeMapping TypeName="Akhmetova_autoserviceModel.Client">
               <MappingFragment StoreEntitySet="Client">

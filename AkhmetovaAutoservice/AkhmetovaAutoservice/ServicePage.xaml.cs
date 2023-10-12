@@ -23,7 +23,7 @@ namespace AkhmetovaAutoservice
         public ServicePage()
         {
             InitializeComponent();
-            var currentServices = Akhmetova_autoserviceEntities.GetContext().Service.ToList();
+            var currentServices = Akhmetova_autoserviceEntities1.GetContext().Service.ToList();
             ServiceListView.ItemsSource = currentServices;
         }
 

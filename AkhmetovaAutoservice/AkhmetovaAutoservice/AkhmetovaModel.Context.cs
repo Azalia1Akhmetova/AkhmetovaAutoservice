@@ -13,19 +13,19 @@ namespace AkhmetovaAutoservice
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class Akhmetova_autoserviceEntities : DbContext
+    public partial class Akhmetova_autoserviceEntities1 : DbContext
     {
-        private static Akhmetova_autoserviceEntities _context;
-        public static Akhmetova_autoserviceEntities GetContext()
+        private static Akhmetova_autoserviceEntities1 _context;
+        public static Akhmetova_autoserviceEntities1 GetContext()
         {
             if (_context == null)
             {
-                _context = new Akhmetova_autoserviceEntities();
+                _context = new Akhmetova_autoserviceEntities1();
             }
             return _context;
         }
-        public Akhmetova_autoserviceEntities()
-            : base("name=Akhmetova_autoserviceEntities")
+        public Akhmetova_autoserviceEntities1()
+            : base("name=Akhmetova_autoserviceEntities1")
         {
         }
     

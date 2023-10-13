@@ -58,3 +58,30 @@ C:\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\Akhm
 C:\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.csproj.GenerateResource.cache
 C:\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.csproj.CoreCompileInputs.cache
 C:\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.csproj.CopyComplete
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\bin\Debug\AkhmetovaAutoservice.exe.config
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\bin\Debug\AkhmetovaAutoservice.exe
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\bin\Debug\AkhmetovaAutoservice.pdb
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\bin\Debug\EntityFramework.dll
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\bin\Debug\EntityFramework.SqlServer.dll
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\bin\Debug\EntityFramework.xml
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\bin\Debug\EntityFramework.SqlServer.xml
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\bin\Debug\ru\EntityFramework.resources.dll
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.csproj.AssemblyReference.cache
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AddEditPage.g.cs
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\MainWindow.g.cs
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\ServicePage.g.cs
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\App.g.cs
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice_Content.g.cs
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice_MarkupCompile.cache
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice_MarkupCompile.lref
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\App.baml
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AddEditPage.baml
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\MainWindow.baml
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\ServicePage.baml
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.g.resources
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.Properties.Resources.resources
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.csproj.GenerateResource.cache
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.csproj.CoreCompileInputs.cache
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.csproj.CopyComplete
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.exe
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.pdb

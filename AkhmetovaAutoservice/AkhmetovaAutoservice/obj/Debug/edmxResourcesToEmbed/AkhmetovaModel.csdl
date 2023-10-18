@@ -103,7 +103,7 @@
     <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="Title" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="MainImagePath" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
-    <Property Name="DurationInSeconds" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="DurationInSeconds" Type="Int32" Nullable="false" />
     <Property Name="Cost" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
     <Property Name="Discount" Type="Int32" />
     <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
@@ -118,6 +118,16 @@
     <Property Name="ServiceID" Type="Int32" Nullable="false" />
     <Property Name="PhotoPath" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" Nullable="false" />
     <NavigationProperty Name="Service" Relationship="Self.FK_ServicePhoto_Service" FromRole="ServicePhoto" ToRole="Service" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
   </EntityType>
   <EntityType Name="Tag">
     <Key>
@@ -255,6 +265,7 @@
     <EntitySet Name="ProductSale" EntityType="Self.ProductSale" />
     <EntitySet Name="Service" EntityType="Self.Service" />
     <EntitySet Name="ServicePhoto" EntityType="Self.ServicePhoto" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
     <EntitySet Name="Tag" EntityType="Self.Tag" />
     <AssociationSet Name="FK_Client_Gender" Association="Self.FK_Client_Gender">
       <End Role="Gender" EntitySet="Gender" />

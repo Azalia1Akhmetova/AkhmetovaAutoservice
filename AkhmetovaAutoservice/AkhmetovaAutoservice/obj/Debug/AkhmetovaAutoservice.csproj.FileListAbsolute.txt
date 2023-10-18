@@ -85,3 +85,6 @@ D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoser
 D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.csproj.CopyComplete
 D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.exe
 D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.pdb
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\AkhmetovaAutoservice.csproj.SuggestedBindingRedirects.cache
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\SignUpPage.g.cs
+D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\SignUpPage.baml

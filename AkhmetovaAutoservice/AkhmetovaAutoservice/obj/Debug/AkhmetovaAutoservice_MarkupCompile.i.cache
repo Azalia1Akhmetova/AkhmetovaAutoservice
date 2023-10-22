@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\
+E:\Важные файлы\РПМ\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\obj\Debug\
 AkhmetovaAutoservice
 none
 false
 DEBUG;TRACE
-D:\3 курс\ИСП-3121\Ахметова\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\App.xaml
+E:\Важные файлы\РПМ\AkhmetovaAutoservice\AkhmetovaAutoservice\AkhmetovaAutoservice\App.xaml
 4-1860769784
 2832940637
-252012360161
-19-1871403856
+24-1539314048
+191199614808
 AddEditPage.xaml;MainWindow.xaml;ServicePage.xaml;SignUpPage.xaml;
 
-True
+False
 

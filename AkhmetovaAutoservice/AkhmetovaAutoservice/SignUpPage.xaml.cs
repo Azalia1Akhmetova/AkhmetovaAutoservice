@@ -77,21 +77,42 @@ namespace AkhmetovaAutoservice
         {
             string s = TBStart.Text;
 
-            if(s.Length < 3 || !s.Contains(':')) 
+            if(s.Length < 4 || !s.Contains(':')) 
                 TBEnd.Text = "";
             else
             {
                 string[] start = s.Split(new char[] { ':' });
                 int startHour = Convert.ToInt32(start[0].ToString()) * 60;
                 int startMin = Convert.ToInt32(start[1].ToString());
-
+                if (startHour / 60 > 23 || startMin > 59)
+                {
+                    MessageBox.Show("Введите действительное время");
+                    TBStart.Clear();
+                    return;
+                }
                 int sum = startHour + startMin + _currentService.DurationInSeconds;
 
                 int EndHour = sum / 60;
                 int EndMin = sum % 60;
-                s = EndHour.ToString() + ":" + EndMin.ToString();
+                if (EndHour > 23)
+                    EndHour -= 24;
+                s = EndHour.ToString() + ":";
+                if (EndMin == 0)
+                    s += "00";
+                else if (EndMin > 0 && EndMin < 10)
+                    s = s + '0' + EndMin;
+                else
+                    s += EndMin.ToString();
                 TBEnd.Text = s;
             }
         }
+        private void TBStart_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            if (!(Char.IsDigit(e.Text, 0) || (e.Text == ":") && (!TBStart.Text.Contains(":") && TBStart.Text.Length != 0)))
+            {
+                e.Handled = true;
+            }
+        }
     }
+
 }

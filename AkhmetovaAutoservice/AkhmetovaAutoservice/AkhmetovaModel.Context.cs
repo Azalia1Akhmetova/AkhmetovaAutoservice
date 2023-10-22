@@ -19,9 +19,7 @@ namespace AkhmetovaAutoservice
         public static Akhmetova_autoserviceEntities GetContext()
         {
             if (_context == null)
-            {
                 _context = new Akhmetova_autoserviceEntities();
-            }
             return _context;
         }
         public Akhmetova_autoserviceEntities()
@@ -44,7 +42,6 @@ namespace AkhmetovaAutoservice
         public virtual DbSet<ProductSale> ProductSale { get; set; }
         public virtual DbSet<Service> Service { get; set; }
         public virtual DbSet<ServicePhoto> ServicePhoto { get; set; }
-        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
         public virtual DbSet<Tag> Tag { get; set; }
     }
 }

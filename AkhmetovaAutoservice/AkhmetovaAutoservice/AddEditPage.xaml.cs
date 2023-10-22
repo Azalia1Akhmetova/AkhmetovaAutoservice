@@ -21,12 +21,17 @@ namespace AkhmetovaAutoservice
     public partial class AddEditPage : Page
     {
         private Service _currentService = new Service();
+        bool IsEditing = false;
         public AddEditPage(Service SelectedService)
         {
             InitializeComponent();
 
             if (SelectedService != null)
+            {
+                IsEditing = true;
                 _currentService = SelectedService;
+            }
+               
 
             DataContext = _currentService;
         }
@@ -59,24 +64,41 @@ namespace AkhmetovaAutoservice
             var allServices = Akhmetova_autoserviceEntities.GetContext().Service.ToList();
             allServices = allServices.Where(p => p.Title == _currentService.Title).ToList();
 
-            if (allServices.Count == 0)
+            if (IsEditing)
             {
-                if (_currentService.ID == 0)
-                    Akhmetova_autoserviceEntities.GetContext().Service.Add(_currentService);
-
-                try
+                if (allServices.Count == 2)
                 {
-                    Akhmetova_autoserviceEntities.GetContext().SaveChanges();
-                    MessageBox.Show("Информация сохранена");
-                    Manager.MainFrame.GoBack();
-                }
-                catch (Exception ex)
-                {
-                    MessageBox.Show(ex.Message.ToString());
+                    MessageBox.Show("Уже существует такая услуга");
+                    return;
                 }
             }
             else
-                MessageBox.Show("Уже существует такая услуга");
+            {
+                if (allServices.Count == 1)
+                {
+                    MessageBox.Show("Уже существует такая услуга");
+                    return;
+                }
+            }
+            if (errors.Length > 0)
+            {
+                MessageBox.Show(errors.ToString());
+                return;
+            }
+            if (_currentService.ID == 0)
+            {
+                Akhmetova_autoserviceEntities.GetContext().Service.Add(_currentService);
+            }
+            try
+            {
+                Akhmetova_autoserviceEntities.GetContext().SaveChanges();
+                MessageBox.Show("Информация сохранена");
+                Manager.MainFrame.GoBack();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString());
+            }
         }
     }
 }
